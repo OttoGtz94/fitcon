@@ -1,0 +1,105 @@
+.login {
+	display: flex;
+	flex-wrap: wrap;
+	height: 100vh;
+	.izquierdo {
+		padding: 15px;
+		width: 50%;
+		//background: red;
+		h2 {
+			font-size: 2.77em;
+			color: $colorMorado;
+			margin: 20px;
+		}
+		h3 {
+			color: $colorMoradoLight;
+			margin: 20px;
+		}
+		.contenedor-imagen {
+			width: 90%;
+			margin: 40px 20px;
+			img {
+				width: 100%;
+			}
+		}
+	}
+	.contenedor-formulario {
+		padding: 15px;
+		background: $colorMorado;
+		width: 50%;
+		display: flex;
+		flex-wrap: wrap;
+		align-content: center;
+		justify-content: center;
+		.contenedor-logo {
+			width: 90%;
+			margin: 0px auto;
+			text-align: center;
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+			img {
+				width: 30%;
+			}
+			.contenedor-idioma {
+				width: 100%;
+				label {
+					//width: 100%;
+					font-size: 1.39em;
+					cursor: pointer;
+					color: $colorGris;
+					//background: red;
+					&:hover {
+						opacity: 0.7;
+					}
+				}
+			}
+		}
+		form {
+			width: 70%;
+			display: flex;
+			flex-wrap: wrap;
+
+			h2 {
+				width: 100%;
+				color: $colorGris;
+				margin: 20px 0px;
+			}
+			label {
+				width: 100%;
+				color: $colorMoradoLight;
+				margin: 0px;
+			}
+			input[type="text"], input[type="password"],
+			input[type="submit"] {
+				width: 100%;
+				height: 40px;
+				padding: 10px 15px;
+				margin: 10px auto;
+				border: 1px solid transparent;
+			}
+			input[type="submit"]{
+				background: $colorAzulClaro;
+				color: $colorMorado;
+				font-weight: 600;
+				cursor: pointer;
+				transition: 0.3s;
+				&:hover {
+					background: #a3acfc;
+					color: $colorGris;
+				}
+			}
+			a {
+				width: 100%;
+				margin: 20px 0px;
+				text-decoration: none;
+				color: #FD6F8D;
+				&:hover{
+					opacity: 0.7;
+				}
+			}
+
+		}
+	}
+}
+

@@ -1,0 +1,60 @@
+.contenido-general {
+	.informes {
+		.contenido {
+			.graficas {
+				width: 100%;
+				display: flex;
+				flex-wrap: wrap;
+				justify-content: space-evenly;
+				.grafica {
+					width: 60%;
+					margin-top: 0px;
+					text-align: center;
+					border-top: 1px solid #DEE2E6;
+					//background: red;
+					img {
+						width: 100%;
+					}
+					span {
+						font-size: 0.83em;
+						font-weight: 300;
+						color: $colorAzul;
+					}
+					h3 {
+						margin: 20px;
+					}
+
+				}
+				.grafica-ingresos,
+				.grafica-egresos {
+					display: none;
+				}
+				.tabla {
+					height: 400px;
+                	overflow: auto;
+				}
+				.botoneraInformes {
+					margin-top: 30px;
+					// .boton {
+					// 	// width: 300px;
+					// 	// margin-top: 10px;
+					// 	// // background: $colorAzulClaro;
+					// 	// // border-color: $colorAzulClaro;
+					// 	// background: $colorBotones;
+					// 	// border-color: $colorBotones;
+					// 	// font-weight: 600;
+					// 	// transition: 0.5s;
+					// 	// &:hover {
+					// 	// 	opacity: 0.7;
+
+					// 	// }
+					// }
+					#botonMostrarGraficaSaldos {
+						display: none;
+					}
+
+				}
+			}
+		}
+	}
+}

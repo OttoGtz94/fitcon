@@ -1,0 +1,33 @@
+// Variables
+$colorAzul: #0E2BDE;
+$colorMorado: #612EFD;
+$colorMoradoLight: #B097FE;
+$colorGris: #DFDFDF;
+$colorGrisFuerte: #6f6f6f;
+$colorAzulClaro: #5ACADC;
+$colorAzul: #61729B;
+$colorBotones: #2e63fd;
+$fuentePrincipal: 'Open Sans', sans-serif;
+$tamanioFuente: 18px;
+
+$colorNegroDark: #222222;
+$colorMoradoDark: #2D2449;
+$colorBotonDark: #909090;
+$colorBotonHoverDark: #a6a6a6;
+$colorTablaDark: #d2d2d2;
+
+
+
+@import "_general.scss";
+@import "_login.scss";
+@import "_informes.scss";
+@import "_clientes.scss";
+@import "_cuentas.scss";
+@import "_configuracion.scss";
+@import "_movimientos.scss";
+@import "_animaciones.scss";
+@import "_error404.scss";
+@import "_idioma.scss";
+@import "_modoDark";
+@import "_responsive.scss";
+

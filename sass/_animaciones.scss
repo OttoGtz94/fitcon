@@ -1,0 +1,42 @@
+@keyframes zoom {
+    0% {
+        /* style */
+        transform: scale(0.7);
+     } 
+}
+
+@keyframes arrastrarAIzquierda {
+	0% {
+		transform: translate(10%);
+		opacity: 0;
+	}
+	// 90% {
+	// 	transform: scale(1.01);
+	// }
+
+}
+
+@keyframes arrastrarADerecha {
+	0% {
+		transform: translate(-30%);
+		opacity: 0;
+	}
+}
+
+@keyframes arrastrarArriba {
+	0% {
+		transform: translate3d(12px, 50%, 3em);
+	}
+}
+
+@keyframes desvanecer {
+	0% {
+		opacity: 0;
+	}
+	50% {
+		opacity: 0.5;
+	}
+	90% {
+		opacity: 1;
+	}
+}

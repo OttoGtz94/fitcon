@@ -1,0 +1,107 @@
+.contenido-general {
+    .clientes {
+        .contenido {
+            .tabla {
+                width: 100%;
+                height: 400px;
+                overflow: auto;
+                .table-responsive {
+                	.table {
+                		thead {
+                			tr {
+                				th {
+                					color: $colorGrisFuerte;
+                				}
+                			}
+                		}
+                		tbody {
+                			td {
+                				a {
+                					text-decoration: none;
+                					color: $colorAzul;
+                					&:hover {
+                						opacity: 0.2;
+                					}
+                				}
+                			}
+                		}
+                	}
+                }
+
+            }
+            .contenedor-boton{
+				width: 50%;
+				margin: 10px auto;
+				text-align: center;
+                //background: red;
+                a {
+                    margin-top: 12px;
+     //            	width: 250px;
+     //                height: 50px;
+     //                background: $colorMorado;
+     //                color: $colorGris;
+     //                font-weight: 600;
+     //                cursor: pointer;
+     //                transition: 0.3s;
+					// height: 40px;
+					// padding: 10px 15px;
+					// margin: 10px auto;
+					// border: 1px solid transparent;
+     //                text-decoration: none;
+     //                &:hover {
+     //                    background: $colorAzulClaro;
+     //                }
+                }
+            }
+        }
+    }
+    .cliente{
+    	.contenido {
+    		.contenido-cliente {
+    			width: 100%;
+    			form {
+    				margin-top: 20px;
+                    .oculto {
+                        display: none;
+                    }
+    				div {
+    					label {
+    						color: $colorGrisFuerte;
+    					}
+    				}
+    			}
+                .contenedor-error {
+                    display: none;
+                }
+    			.botones {
+    				width: 100%;
+    				display: flex;
+    				flex-wrap: wrap;
+    				justify-content: space-evenly;
+    				margin-top: 0px;
+    				button {
+                       // margin: 100px;
+    		// 			width: 30%;
+    		// 			background: $colorMorado;
+	     //                color: $colorGris;
+	     //                font-weight: 600;
+	     //                cursor: pointer;
+	     //                transition: 0.3s;
+						// height: 40px;
+						// padding: 10px 15px;
+						// margin: 10px auto;
+						// border: 1px solid transparent;
+	     //                &:hover {
+	     //                    background: $colorAzulClaro;
+	     //                }
+    				}
+                    .botonCancelar,
+                    .botonEliminar,
+                    .botonGuardar {
+                        display: none;
+                    }
+    			}
+    		}
+    	}
+    }
+}

@@ -1,0 +1,127 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+
+    background: $colorGris;
+    width: 100%;
+    font-family: $fuentePrincipal;
+    font-size: $tamanioFuente;
+
+    // background: red;
+    .contenido-general {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+
+        nav {
+            background: $colorMorado;
+            width: 15%;
+            // display: flex;
+            // flex-wrap: wrap;
+            // justify-content: center;
+            // align-content: center;
+            height: 100vh;
+
+            .contenedor-logo {
+                width: 100%;
+                text-align: center;
+
+                img {
+                    width: 70%;
+                    margin: 50px 0px;
+                }
+            }
+
+            .contenedor-nav {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-content: center;
+
+                a {
+                    width: 100%;
+                    height: 50px;
+                    text-decoration: none;
+                    padding: 15px;
+                    color: $colorGris;
+                    font-size: 1.1em;
+                    transition: 0.1s;
+
+                    i {
+                        margin-right: 5px;
+                        font-size: 1.38em;
+                    }
+
+                    &:hover {
+                        background: $colorAzulClaro;
+                        color: $colorMorado;
+                    }
+                }
+
+                .salir {
+                    margin-top: 100px;
+                }
+            }
+        }
+
+        section {
+            width: 85%;
+            padding: 15px;
+
+            .contenedor-perfil {
+                width: 100%;
+                text-align: right;
+
+                h4 {
+                    font-size: 1.1em;
+                    color: $colorAzul;
+                    margin-bottom: 10px;
+                    text-decoration: underline;
+                }
+
+                h5 {
+                    font-size: 0.94em;
+                    color: $colorAzul;
+                    font-weight: 300;
+                }
+
+            }
+
+            .contenido {
+                width: 100%;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: scpace-between;
+
+                h2 {
+                    //font-size: 1.67em;
+                    //color: #FF435B;
+                    color: #7447fd;
+                    //font-weight: 600;
+                    text-shadow: 3px 3px 2px rgba(97, 46, 253, 0.3);
+                }
+            }
+        }
+    }
+
+}
+
+.boton {
+    width: 300px;
+    margin-top: 0px;
+    // background: $colorAzulClaro;
+    // border-color: $colorAzulClaro;
+    background: $colorBotones;
+    border-color: $colorBotones;
+    font-weight: 600;
+    transition: 3s;
+
+    &:hover {
+        opacity: 0.7;
+
+    }
+}

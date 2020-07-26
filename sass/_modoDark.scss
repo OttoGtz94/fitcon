@@ -1,0 +1,97 @@
+.dark {
+    background: $colorNegroDark;
+	.login {
+		.izquierdo {
+			h2 {
+				color: #d2d2d2;
+			}
+			h3 {
+				color: #a6a6a6;
+			}
+		}
+		.contenedor-formulario {
+			background: $colorMoradoDark;
+			form {
+				input[type="submit"] {
+					background: $colorBotonDark;
+					color: white;
+					&:hover {
+						background: $colorBotonHoverDark;
+					}
+				}
+			}
+		}
+	}
+    .contenido-general {
+        nav {
+            background: $colorMoradoDark;
+        }
+
+        section {
+            .contenedor-perfil {
+                h4 {
+                    color: #bcbcbc;
+                }
+
+                h5 {
+                    color: #bcbcbc;
+                }
+
+            }
+        }
+
+    }
+
+    .boton {
+        background: $colorBotonDark;
+        border-color: $colorBotonDark;
+
+        &:hover {
+            background: $colorBotonHoverDark;
+            border-color: $colorBotonHoverDark;
+        }
+    }
+
+    th {
+        color: $colorTablaDark;
+    }
+
+    tbody {
+        color: $colorTablaDark;
+
+        td {
+            border-color: $colorTablaDark;
+
+            a {
+                color: #e8e8e8;
+            }
+        }
+    }
+
+    #titulo-contenido {
+        color: #e8e8e8;
+        text-shadow: 3px 3px 2px #222222;
+    }
+
+    .cliente {
+        .contenido {
+            .contenido-cliente {
+                form {
+                    div {
+                        .form-group {
+
+                            .botonera-tema,
+                            .botonera-idioma {
+                                button {
+                                    border-right: 1px solid #e8e8e8;
+                                    border-left: 1px solid #e8e8e8;
+                                    color: #bcbcbc;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
